@@ -1,0 +1,39 @@
+{
+
+   "manifest_version": 3,
+   "name": "Manage my bookmarks",
+   "description": "Manage my bookmarks, version 3 for chrome manifest 3",
+   "version": "3.0",
+
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_icon":  "media/icon.png"
+  },
+
+  "background": {
+    "service_worker": "dist/bundle.js", "type": "module"
+  },
+
+  "options_page": "html/options.html",
+
+  "permissions": ["sidePanel", "bookmarks", "alarms", "notifications",
+    "storage",
+    "activeTab",
+    "background",
+    "downloads"
+
+  ],
+
+  "side_panel": {"default_path": "html/sidepanel.html"},
+
+
+  "host_permissions": ["http://*/*", "https://*/*",  "https://s3.amazonaws.com/*"],
+
+
+
+
+
+  "minimum_chrome_version": "102",
+   
+  "externally_connectable": {"matches": ["http://localhost/*", "https://localhost/*", "http://iuk.one/*", "https://iuk.one/*"]}
+}
