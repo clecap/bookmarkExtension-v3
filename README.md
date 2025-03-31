@@ -40,7 +40,7 @@ configurations can be restored. Downloads alway pick the most recent version.
 ## Roadmap
 
 The extension is a quick and dirty hack which I produced when xbrowsersync went out of service.
-it does exactly what I need it to do and I offered it here without any warranty, guarantees of whatever.
+it does exactly what I need it to do and I offer it here without any warranty, guarantees of whatever.
 
 ## Road Map and Known Bugs
 
